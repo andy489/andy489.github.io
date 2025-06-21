@@ -31,6 +31,15 @@ h1 {
     border-bottom: 2px solid var(--accent-color);
 }
 
+.job-title {
+  font-size: 1.1rem;
+  font-weight: 600;              /* Bolder appearance */
+  color: #2a80b9;                /* A refined light blue */
+  margin: 0.3rem 0;
+  font-family: 'Roboto Condensed', serif; /* Classier serif font */
+  letter-spacing: 0.5px;         /* Slight spacing for elegance */
+}
+
 .profile-pic {
     width: 220px;   /* Large size for desktop */
     height: 220px;  /* Maintain aspect ratio */
@@ -216,6 +225,45 @@ li {
 
 .company-name {
     font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.company-name a {
+    text-decoration: none;
+}
+
+.company-name a img {
+    vertical-align: middle; /* keep aligned */
+    border: none;           /* remove any image border */
+}
+
+.company-logo {
+    width: 3rem;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+    border: 1px solid #383838;  /* Graphite color */
+    border-radius: 6px;
+    padding: 1px;
+    background-color: #f0f0f0;   /* Light gray background */
+    display: inline-block;       /* ensure border shows correctly */
+}
+
+.larger-logo-4 {
+    width: 4rem;
+}
+
+
+.larger-logo-6 {
+    width: 6rem;
+}
+
+.logo-bg-white {
+    background-color: white;
+}
+
+.md-05 {
+    margin-bottom: 0.5em
 }
 
 /* Custom bullets */
